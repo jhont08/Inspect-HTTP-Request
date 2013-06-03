@@ -7,7 +7,7 @@
 	<h2>This is the default page.</h2>
 	SERVICIOS REST JSON 
         <p>  
-            <a href="#" onclick="jsonPerson()"><strong>Hacer Petición</strong></a>  
+            <a href="#" onclick="jsonHTTPRequest()"><strong>Hacer Petición</strong></a>  
         </p>  
         <p>  
             <a href="http://localhost:8080/InspectHTTPRequest/rest/httprequest/inspect/"><strong>Ver Ultimos Request Headers</strong></a>  
