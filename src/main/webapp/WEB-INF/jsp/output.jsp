@@ -12,36 +12,36 @@
         <h2>Showing Request Headers.</h2>
  
     <table border="1">
-        <c:forEach var="person" items="${personList}">
+        <c:forEach var="httprequest" items="${HTTPRequestList}">
             <table border="1">
-                Request Method: ${person.method} <br />
-                Request URL: ${person.url} <br />
+                Request Method: ${httprequest.method} <br />
+                Request URL: ${httprequest.url} <br />
                 <tr>
-                    <td>Accept</td><td>${person.accept}</td>
+                    <td>Accept</td><td>${httprequest.accept}</td>
                 </tr>
                 <tr>
-                    <td>Accept-Encoding:</td><td>${person.acceptEnc}</td>
+                    <td>Accept-Encoding:</td><td>${httprequest.acceptEnc}</td>
                 </tr>
                 <tr>
-                    <td>Accept-Language:</td><td>${person.acceptLan}</td>
+                    <td>Accept-Language:</td><td>${httprequest.acceptLan}</td>
                 </tr>
                 <tr>
-                    <td>Connection:</td><td>${person.connection}</td>
+                    <td>Connection:</td><td>${httprequest.connection}</td>
                 </tr>
                 <tr>
-                    <td>Cookie:</td><td>${person.cookie}</td>
+                    <td>Cookie:</td><td>${httprequest.cookie}</td>
                 </tr>
                 <tr>
-                    <td>Host:</td><td>${person.host}</td>
+                    <td>Host:</td><td>${httprequest.host}</td>
                 </tr>
                 <tr>
-                    <td>Referer:</td><td>${person.referer}</td>
+                    <td>Referer:</td><td>${httprequest.referer}</td>
                 </tr>
                 <tr>
-                    <td>User-Agent:</td><td>${person.userAgent}</td>
+                    <td>User-Agent:</td><td>${httprequest.userAgent}</td>
                 </tr>
                 <tr>
-                    <td>X-Requested-With:</td><td>${person.XRequestedWith}</td>
+                    <td>X-Requested-With:</td><td>${httprequest.XRequestedWith}</td>
                 </tr><br />
             </table><br />
         </c:forEach>

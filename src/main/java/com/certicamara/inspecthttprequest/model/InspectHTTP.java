@@ -13,7 +13,7 @@ import javax.persistence.GeneratedValue;
  */
  
 @Document
-public class Person {
+public class InspectHTTP {
     
     @Id
     @GeneratedValue 
